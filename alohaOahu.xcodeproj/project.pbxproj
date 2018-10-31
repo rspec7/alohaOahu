@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A423762F2189652E003E85F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423762E2189652E003E85F4 /* AppDelegate.swift */; };
+		A42376312189652E003E85F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42376302189652E003E85F4 /* ViewController.swift */; };
+		A42376342189652E003E85F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42376322189652E003E85F4 /* Main.storyboard */; };
+		A42376362189652F003E85F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42376352189652F003E85F4 /* Assets.xcassets */; };
+		A42376392189652F003E85F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42376372189652F003E85F4 /* LaunchScreen.storyboard */; };
+		A42376442189652F003E85F4 /* alohaOahuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42376432189652F003E85F4 /* alohaOahuTests.swift */; };
+		A423764F2189652F003E85F4 /* alohaOahuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423764E2189652F003E85F4 /* alohaOahuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A42376402189652F003E85F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42376232189652E003E85F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A423762A2189652E003E85F4;
+			remoteInfo = alohaOahu;
+		};
+		A423764B2189652F003E85F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42376232189652E003E85F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A423762A2189652E003E85F4;
+			remoteInfo = alohaOahu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A423762B2189652E003E85F4 /* alohaOahu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alohaOahu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A423762E2189652E003E85F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A42376302189652E003E85F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A42376332189652E003E85F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A42376352189652F003E85F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A42376382189652F003E85F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A423763A2189652F003E85F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A423763F2189652F003E85F4 /* alohaOahuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alohaOahuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42376432189652F003E85F4 /* alohaOahuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alohaOahuTests.swift; sourceTree = "<group>"; };
+		A42376452189652F003E85F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A423764A2189652F003E85F4 /* alohaOahuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alohaOahuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A423764E2189652F003E85F4 /* alohaOahuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alohaOahuUITests.swift; sourceTree = "<group>"; };
+		A42376502189652F003E85F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A42376282189652E003E85F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A423763C2189652F003E85F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42376472189652F003E85F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42376222189652E003E85F4 = {
+			isa = PBXGroup;
+			children = (
+				A423762D2189652E003E85F4 /* alohaOahu */,
+				A42376422189652F003E85F4 /* alohaOahuTests */,
+				A423764D2189652F003E85F4 /* alohaOahuUITests */,
+				A423762C2189652E003E85F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A423762C2189652E003E85F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A423762B2189652E003E85F4 /* alohaOahu.app */,
+				A423763F2189652F003E85F4 /* alohaOahuTests.xctest */,
+				A423764A2189652F003E85F4 /* alohaOahuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A423762D2189652E003E85F4 /* alohaOahu */ = {
+			isa = PBXGroup;
+			children = (
+				A423762E2189652E003E85F4 /* AppDelegate.swift */,
+				A42376302189652E003E85F4 /* ViewController.swift */,
+				A42376322189652E003E85F4 /* Main.storyboard */,
+				A42376352189652F003E85F4 /* Assets.xcassets */,
+				A42376372189652F003E85F4 /* LaunchScreen.storyboard */,
+				A423763A2189652F003E85F4 /* Info.plist */,
+			);
+			path = alohaOahu;
+			sourceTree = "<group>";
+		};
+		A42376422189652F003E85F4 /* alohaOahuTests */ = {
+			isa = PBXGroup;
+			children = (
+				A42376432189652F003E85F4 /* alohaOahuTests.swift */,
+				A42376452189652F003E85F4 /* Info.plist */,
+			);
+			path = alohaOahuTests;
+			sourceTree = "<group>";
+		};
+		A423764D2189652F003E85F4 /* alohaOahuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A423764E2189652F003E85F4 /* alohaOahuUITests.swift */,
+				A42376502189652F003E85F4 /* Info.plist */,
+			);
+			path = alohaOahuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A423762A2189652E003E85F4 /* alohaOahu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42376532189652F003E85F4 /* Build configuration list for PBXNativeTarget "alohaOahu" */;
+			buildPhases = (
+				A42376272189652E003E85F4 /* Sources */,
+				A42376282189652E003E85F4 /* Frameworks */,
+				A42376292189652E003E85F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alohaOahu;
+			productName = alohaOahu;
+			productReference = A423762B2189652E003E85F4 /* alohaOahu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A423763E2189652F003E85F4 /* alohaOahuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42376562189652F003E85F4 /* Build configuration list for PBXNativeTarget "alohaOahuTests" */;
+			buildPhases = (
+				A423763B2189652F003E85F4 /* Sources */,
+				A423763C2189652F003E85F4 /* Frameworks */,
+				A423763D2189652F003E85F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42376412189652F003E85F4 /* PBXTargetDependency */,
+			);
+			name = alohaOahuTests;
+			productName = alohaOahuTests;
+			productReference = A423763F2189652F003E85F4 /* alohaOahuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A42376492189652F003E85F4 /* alohaOahuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42376592189652F003E85F4 /* Build configuration list for PBXNativeTarget "alohaOahuUITests" */;
+			buildPhases = (
+				A42376462189652F003E85F4 /* Sources */,
+				A42376472189652F003E85F4 /* Frameworks */,
+				A42376482189652F003E85F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A423764C2189652F003E85F4 /* PBXTargetDependency */,
+			);
+			name = alohaOahuUITests;
+			productName = alohaOahuUITests;
+			productReference = A423764A2189652F003E85F4 /* alohaOahuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A42376232189652E003E85F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tam Phan";
+				TargetAttributes = {
+					A423762A2189652E003E85F4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A423763E2189652F003E85F4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A423762A2189652E003E85F4;
+					};
+					A42376492189652F003E85F4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A423762A2189652E003E85F4;
+					};
+				};
+			};
+			buildConfigurationList = A42376262189652E003E85F4 /* Build configuration list for PBXProject "alohaOahu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A42376222189652E003E85F4;
+			productRefGroup = A423762C2189652E003E85F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A423762A2189652E003E85F4 /* alohaOahu */,
+				A423763E2189652F003E85F4 /* alohaOahuTests */,
+				A42376492189652F003E85F4 /* alohaOahuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A42376292189652E003E85F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42376392189652F003E85F4 /* LaunchScreen.storyboard in Resources */,
+				A42376362189652F003E85F4 /* Assets.xcassets in Resources */,
+				A42376342189652E003E85F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A423763D2189652F003E85F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42376482189652F003E85F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A42376272189652E003E85F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42376312189652E003E85F4 /* ViewController.swift in Sources */,
+				A423762F2189652E003E85F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A423763B2189652F003E85F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42376442189652F003E85F4 /* alohaOahuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42376462189652F003E85F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A423764F2189652F003E85F4 /* alohaOahuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A42376412189652F003E85F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A423762A2189652E003E85F4 /* alohaOahu */;
+			targetProxy = A42376402189652F003E85F4 /* PBXContainerItemProxy */;
+		};
+		A423764C2189652F003E85F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A423762A2189652E003E85F4 /* alohaOahu */;
+			targetProxy = A423764B2189652F003E85F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A42376322189652E003E85F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42376332189652E003E85F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A42376372189652F003E85F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42376382189652F003E85F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A42376512189652F003E85F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A42376522189652F003E85F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A42376542189652F003E85F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXW9P8JD35;
+				INFOPLIST_FILE = alohaOahu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamphan.alohaOahu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A42376552189652F003E85F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXW9P8JD35;
+				INFOPLIST_FILE = alohaOahu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamphan.alohaOahu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A42376572189652F003E85F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXW9P8JD35;
+				INFOPLIST_FILE = alohaOahuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamphan.alohaOahuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alohaOahu.app/alohaOahu";
+			};
+			name = Debug;
+		};
+		A42376582189652F003E85F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXW9P8JD35;
+				INFOPLIST_FILE = alohaOahuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamphan.alohaOahuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alohaOahu.app/alohaOahu";
+			};
+			name = Release;
+		};
+		A423765A2189652F003E85F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXW9P8JD35;
+				INFOPLIST_FILE = alohaOahuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamphan.alohaOahuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alohaOahu;
+			};
+			name = Debug;
+		};
+		A423765B2189652F003E85F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXW9P8JD35;
+				INFOPLIST_FILE = alohaOahuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamphan.alohaOahuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alohaOahu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A42376262189652E003E85F4 /* Build configuration list for PBXProject "alohaOahu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42376512189652F003E85F4 /* Debug */,
+				A42376522189652F003E85F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42376532189652F003E85F4 /* Build configuration list for PBXNativeTarget "alohaOahu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42376542189652F003E85F4 /* Debug */,
+				A42376552189652F003E85F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42376562189652F003E85F4 /* Build configuration list for PBXNativeTarget "alohaOahuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42376572189652F003E85F4 /* Debug */,
+				A42376582189652F003E85F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42376592189652F003E85F4 /* Build configuration list for PBXNativeTarget "alohaOahuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A423765A2189652F003E85F4 /* Debug */,
+				A423765B2189652F003E85F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A42376232189652E003E85F4 /* Project object */;
+}
